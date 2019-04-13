@@ -89,11 +89,15 @@ public:
 	}
 
 
-	// set up the private stuff
+	// set up the private  data fields for this class
 private:
-	// this just sets up a couple variables for the subscriptions and publishers
+	//this just sets up a couple variables for the subscriptions and publishers
+
+	// every ROS node has to have a NodeHandle.
 	ros::NodeHandle n;
+	// this will hold our subscription for Range messages
 	ros::Subscriber range_sub;
+	// this will hold our publisher for command messages.
 	ros::Publisher command_pub;
 
 };
