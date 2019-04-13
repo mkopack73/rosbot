@@ -1,0 +1,8 @@
+<launch>
+	<node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node" output="screen" />
+
+	<include file="$(find clubrobot)/launch/obstacleavoid.launch"/>
+	
+	<include file="$(find clubrobot)/launch/ultrasonic_ranger.launch" />
+    
+</launch>

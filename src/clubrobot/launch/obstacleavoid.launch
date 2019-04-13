@@ -1,0 +1,3 @@
+<launch>
+	<node name="obstacle_avoid" pkg="clubrobot" type="obstacle_avoid" output="screen" />
+</launch>

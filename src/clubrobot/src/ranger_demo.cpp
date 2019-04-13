@@ -82,7 +82,7 @@ public:
 
 		double distance = rangemessage.range / 200.0;
 		command.linear.x = distance;
-		ROS_INFO("distance=%f", distance);
+		ROS_INFO("drive distance=%f", distance);
 
 		// ok, now publish out the new Twist message
 		command_pub.publish(command);
