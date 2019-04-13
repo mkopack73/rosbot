@@ -1,0 +1,9 @@
+# ignore everything
+
+*
+
+#Don't ignore this .gitignore
+!.gitignore
+
+
+

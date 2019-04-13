@@ -1,0 +1,12 @@
+#ignore everything in the lib directory
+
+lib/**
+
+#ignore everything in the share directory
+share/**
+
+#ignore everything in the include directory
+include/**
+
+#don't ignore the .ignore
+!.gitignore
